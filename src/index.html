@@ -25,7 +25,7 @@
             nulla, quaerat
             numquam.
           </p>
-          <div class="flex flex-row mt-5 space-x-4 justify-between items-center md:flex-row md:space-y-0">
+          <div class="relative flex flex-row mt-5 space-x-4 justify-between items-center md:flex-row md:space-y-0">
             <div class="flex flex-row items-center space-x-4">
               <img src="../images/avatar-michelle.jpg" alt="" class="rounded-full flex-start h-[40px]">
 
@@ -34,10 +34,29 @@
                 <div class="text-gray-grayish-blue text-xs">28 Jun 2020</div>
               </div>
             </div>
-            <i class="flex-end rounded-full p-2 bg-gray-light-grayish-blue"><img src="../images/icon-share.svg"></i>
+
+
+            <i id="share"
+              class="group  flex-end rounded-full p-2 sm:hover:bg-gray-dark-grayish-blue bg-gray-light-grayish-blue">
+
+              <div id="tooltip" class="absolute invisible group-hover:visible bottom-12 -right-28 w-60 flex flex-row justify-evenly items-center 
+             bg-gray-dark-grayish-blue p-3 rounded-lg text-gray-grayish-blue">
+                <p class="tracking-[.25em] uppercase text-xs">share</p>
+                <i>
+                  <img src="../images/icon-facebook.svg" alt="">
+                </i>
+                <i>
+                  <img src="../images/icon-twitter.svg" alt="">
+                </i>
+                <i>
+                  <img src="../images/icon-pinterest.svg" alt="">
+                </i>
+              </div>
+
+              <img class="group-hover:brightness-200" src="../images/icon-share.svg">
+            </i>
           </div>
         </div>
-
       </div>
     </div>
   </div>
