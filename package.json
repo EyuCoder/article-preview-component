@@ -1,0 +1,16 @@
+{
+  "name": "article-preview-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "Eyuel Daniel",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
